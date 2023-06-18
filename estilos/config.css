@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+:root {
+    --fonte-principal: 'Open Sans', 'Roboto', 'Maven Pro', sans-serif;
+    --fonte-titulo: 'Sacramento', 'Dancing Script', 'Indie Flower', cursive;
+
+    --preto-fundo: #363031;
+    --branco-fundo: #DEDEDE;
+}
