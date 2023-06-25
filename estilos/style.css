@@ -109,6 +109,51 @@ main > section#avaliacoes > div.avaliador > div.avaliador-status-container > p {
 
 
 /* CONTATOS */
+main > section#contatos > div#contatos-container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 60px auto auto 60px;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    row-gap: 10px;
+}
+
+main > section#contatos > div#contatos-container > img {
+    width: 60%;
+    grid-column: 2/3;
+    justify-self: center;
+}
+
+main > section#contatos > div#contatos-container > p {
+    margin: 0;
+    padding: 0;
+    grid-column: 3/4;
+}
+
+main > section#contatos > div#contatos-container > img#img-whats, p#texto-whats {
+    grid-row: 1/2;
+}
+
+main > section#contatos > div#contatos-container > img#img-insta, p#texto-insta {
+    grid-row: 2/3;
+}
+
+main > section#contatos > div#contatos-container > img#img-email, p#texto-email {
+    grid-row: 3/4;
+}
+
+main > section#contatos > div#contatos-container > p > a {
+    text-decoration: none;
+    color: var(--preto-fundo);
+}
+
+main > section#contatos > div#contatos-container > p > a:hover {
+    text-decoration: underline;
+}
+
+
+
+/*
 main > section#contatos > div#contatos-container > div.contato-container {
     display: flex;
     justify-content: center;
@@ -133,6 +178,8 @@ main > section#contatos > div#contatos-container > div.contato-container > p > a
     text-decoration: underline;
     font-weight: bold;
 }
+*/
+
 
 
 /* RODAPÉ */
