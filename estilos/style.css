@@ -133,3 +133,26 @@ main > section#contatos > div#contatos-container > div.contato-container > p > a
     text-decoration: underline;
     font-weight: bold;
 }
+
+
+/* RODAPÉ */
+footer {
+    background-color: var(--preto-fundo);
+    color: var(--branco-fundo);
+    padding: 30px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.1em;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--branco-fundo);
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
