@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* TELA DEITADA */
+@media screen and (orientation: landscape) {
+    header > h1 {
+        font-size: 4em;
+    }
+
+    main section > h2 {
+        font-size: 3em;
+    }
+
+    main section  p {
+        font-size: 1.2em;
+        width: 70%;
+        margin: auto;
+    }
+
+    /* MAIN CARTÕES */
+    main > section#cartoes > div.cartoes-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    main > section#cartoes > div.cartoes-container > img {
+        width: 35%;
+    }
+
+    /* MAIN AVALIADORES */
+    main > section#avaliacoes > div.avaliador {
+        width: 70%;
+    }
+
+    main > section#avaliacoes > div.avaliador > div.avaliador-status-container > p {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    /* CONTATOS */
+    main > section#contatos > div#contatos-container {
+        grid-template-columns: 40% 50%;
+    }
+
+    main > section#contatos > div#contatos-container > img {
+        width: 20%;
+    }
+
+    /* RODAPÉ */ 
+    footer p {
+        font-size: 1.5em;
+    }
+}

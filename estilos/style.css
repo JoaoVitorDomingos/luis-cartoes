@@ -107,6 +107,7 @@ main > section#avaliacoes > div.avaliador > div.avaliador-status-container > div
 
 main > section#avaliacoes > div.avaliador > div.avaliador-status-container > p {
     font-size: 0.8em;
+    width: 100%;
 }
 
 
