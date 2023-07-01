@@ -76,7 +76,7 @@ main > section#avaliacoes > div.avaliador {
 
     border: 3px solid var(--preto-fundo);
     border-radius: 7px;
-    width: 90%;
+    width: 80%;
     margin: auto;
     margin-bottom: 20px;
 
@@ -119,7 +119,7 @@ main > section#contatos > div#contatos-container {
 }
 
 main > section#contatos > div#contatos-container > img {
-    width: 60%;
+    width: 80%;
     grid-column: 2/3;
     justify-self: center;
 }
