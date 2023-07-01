@@ -76,7 +76,9 @@ main > section#avaliacoes > div.avaliador {
 
     border: 3px solid var(--preto-fundo);
     border-radius: 7px;
+    overflow: hidden;
     width: 90%;
+    height: auto;
     margin: auto;
     margin-bottom: 20px;
 
