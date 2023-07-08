@@ -119,6 +119,8 @@ main > section#contatos > div#contatos-container {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
     align-items: center;
+    justify-content: center;
+    row-gap: 20px;
 }
 
 main > section#contatos > div#contatos-container > img {

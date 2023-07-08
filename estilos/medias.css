@@ -44,10 +44,107 @@
 
     main > section#contatos > div#contatos-container > img {
         width: 20%;
+        justify-self: right;
     }
 
     /* RODAPÉ */ 
     footer p {
         font-size: 1.5em;
+    }
+}
+
+/* Tablet*/
+@media screen and (min-width: 636px) {
+    /* MAIN CARTÕES */
+    main > section#cartoes > div.cartoes-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    main > section#cartoes > div.cartoes-container > img {
+        width: 50%;
+        margin-bottom: 10px;
+        box-shadow: 7px 5px 8px 1px rgba(0, 0, 0, 0.514);
+    }
+
+    /* CONTATOS */
+    main > section#contatos > div#contatos-container > p {
+        width: 100%;
+    }
+    
+}
+
+/* Notebook */
+@media screen and (min-width: 992px) {
+    /* HEADER */
+    header > h1 {
+        font-size: 5em;
+    }
+
+    /* MAIN */
+    main section > h2 {
+        font-size: 3.5em;
+    }
+
+    main section  p {
+        font-size: 1.5em;
+        width: 85%;
+    }
+
+    /* MAIN CARTÕES */
+    main > section#cartoes > div.cartoes-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    main > section#cartoes > div.cartoes-container > img {
+        width: 30%;
+    }
+}
+
+
+/* PC e TELAS GRANDES */
+@media screen and (min-width: 1200px) {
+    /* HEADER */
+    header {
+        margin-bottom: 125px;
+    }
+
+    header > h1 {
+        font-size: 6em;
+        padding: 70px;
+    }
+
+    /* MAIN */
+    main section > h2 {
+        font-size: 4em;
+    }
+
+    main section  p {
+        font-size: 2em;
+        width: 70%;
+    }
+
+    /* MAIN CARTÕES */
+    main > section#cartoes > div.cartoes-container > img {
+        width: 25%;
+    }
+
+    /* MAIN AVALIADORES */
+    main > section#avaliacoes > div.avaliador {
+        width: 50%;
+    }
+
+    main > section#avaliacoes > div.avaliador > div.avaliador-status-container > p {
+        font-size: 1.3em;
+        width: 100%;
+    }
+
+    /* RODAPÉ */
+    footer {
+        padding: 50px;
     }
 }
