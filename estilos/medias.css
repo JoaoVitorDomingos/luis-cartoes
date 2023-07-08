@@ -54,7 +54,7 @@
 }
 
 /* Tablet*/
-@media screen and (min-width: 636px) {
+@media screen and (min-width: 636px) and (min-height: 700px) {
     /* MAIN CARTÕES */
     main > section#cartoes > div.cartoes-container {
         display: flex;
